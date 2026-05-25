@@ -31,26 +31,4 @@ Deconstructing existing products to optimize usability, accessibility, and conve
 
 ---
 
-## 🛠️ Toolkit & Technologies
 
-| Discipline | Tools & Frameworks |
-| :--- | :--- |
-| **UI Design & Prototyping** | Figma, Adobe XD, Principle, Framer |
-| **User Research** | Maze, UserTesting, Typeform, Miro |
-| **UX Auditing** | Hotjar, Google Analytics, Axe Accessibility, Notion |
-| **Handoff & Code** | Zeplin, Storybook, basic HTML/CSS/Git |
-
----
-
-## 📂 Repository Structure
-
-```text
-├── 01_UI-Design/
-│   ├── design-systems/     # Component guidelines and styles
-│   └── prototypes/         # Figma files and interactive links
-├── 02_User-Research/
-│   ├── test-plans/         # Usability testing scripts and criteria
-│   └── insights/           # Persona templates and research reports
-└── 03_UX-Audits/
-    ├── heuristics/         # Expert review documentation
-    └── reports/            # Before/After case studies & recommendations
