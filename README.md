@@ -1,56 +1,32 @@
-# 🐾 GoodSama
+# Design-skills
+A comprehensive repository showcasing my design expertise across UI design, user research, and UX auditing. Explore case studies, frameworks, design systems, and methodologies that drive intuitive digital experiences.
 
-GoodSama dissolves the fear that stops people from helping animals in distress — instantly connecting them to a trusted, nearby network so they go from I can't do this to I'm not doing this alone.
+# 🎨 The Design Vault: UI, Research & Auditing
 
----
+Welcome to my central design repository! This space serves as a living portfolio and documentation hub for my design methodologies, frameworks, and skill sets spanning the entire product design lifecycle. 
 
-## Who it's for
-
-**Good Samaritans** — animal lovers who care but freeze: no contacts, no confidence, no network.
-**NGOs** — welfare organisations that need a reliable, low-noise channel to mobilise trusted helpers fast.
-**The animal** — the reason any of this exists.
-
-> MVP: ~20 volunteers in Dehradun, linked to one NGO.
+Whether you are looking at how I build interface components, how I uncover user insights, or how I dissect complex workflows, you will find it all organized here.
 
 ---
 
-## Setup
+## 🚀 Core Competencies
 
-Static HTML prototype — no server, no build step.
- 
-**1. Get the files** — clone or download the project folder. Contains `index.html`, `login.html`, `brand.md`, and `README.md`.
- 
-**2. Run locally** — VS Code + Live Server is the simplest option:
- 
-```bash
-code --install-extension ritwickdey.LiveServer
-code /path/to/goodsama
-```
- 
-Click **Go Live** in the bottom-right status bar. Runs at `http://127.0.0.1:5500` and auto-reloads on save. Or use Python: `python3 -m http.server 5500`.
- 
-**3. Fonts** — DM Sans + DM Serif Display load via Google Fonts CDN. An internet connection is needed for them to render; they degrade gracefully without one.
- 
----
+### 1. 🎨 User Interface (UI) Design
+Focuses on creating visually stunning, accessible, and highly functional digital interfaces.
+* **Design Systems:** Component libraries, tokenization, and documentation for scalability.
+* **Prototyping:** High-fidelity interactive prototypes with micro-interactions.
+* **Visual Hierarchy:** Clean layouts balancing typography, whitespace, and color theory.
 
-## Tech Stack
+### 2. 🔍 User Research
+Rooted in data and empathy to ensure products solve actual human problems.
+* **Qualitative Methods:** User interviews, focus groups, and contextual inquiry.
+* **Quantitative Methods:** Surveys, A/B testing analysis, and behavioral analytics.
+* **Artifacts:** Persona creation, journey mapping, and empathy maps.
 
-**Frontend:** Plain HTML, CSS, vanilla JS — no framework, no build step.
-
-**Backend (planned):** Firebase end-to-end.
-
-| Service | Role |
-|---|---|
-| Firebase Auth | Phone number OTP |
-| Firestore | Users, reports, NGO links, notifications |
-| Cloud Functions | Matching engine — filters by NGO + radius + active status |
-| Cloud Storage | Report photos |
-| FCM | Push notifications to volunteers |
+### 3. 📋 UX Auditing & Strategy
+Deconstructing existing products to optimize usability, accessibility, and conversion rates.
+* **Heuristic Evaluations:** Assessing interfaces against Nielsen’s 10 usability heuristics.
+* **Accessibility (A11y):** Ensuring WCAG 2.1 AA compliance across contrast, navigation, and screen-readers.
+* **Growth Design:** Identifying friction points in user funnels to increase retention.
 
 ---
-
-## What's Next
-
-**Screens:** `setup.html` (radius registration + NGO link request) → `home.html` (dashboard for Volunteer, NGO, Admin)
-
-**Phase 2:** In-app rescue guidance · Anonymous calling · Post-resolution feedback · Case relay
