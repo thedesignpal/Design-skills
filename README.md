@@ -16,14 +16,20 @@ GoodSama dissolves the fear that stops people from helping animals in distress �
 
 ## Setup
 
-Right now GoodSama is a static HTML prototype — no server required. Here's how to run it:
-
-Step 1 — Get the files. Clone or download the project folder. It contains index.html, login.html, brand.md, and README.md.
-Step 2 — Open locally. The simplest way is VS Code with the Live Server extension:
-bashcode --install-extension ritwickdey.LiveServer
+No build step needed. It's a static HTML prototype.
+ 
+```bash
+# Option 1 — VS Code Live Server (recommended)
+code --install-extension ritwickdey.LiveServer
 code /path/to/goodsama
-Then click Go Live in the bottom-right of VS Code. The app runs at http://127.0.0.1:5500 and auto-reloads on every save. Alternatively, use Python's built-in server: python3 -m http.server 5500.
-Step 3 — Fonts. The UI uses Google Fonts (DM Sans + DM Serif Display) loaded via CDN, so an internet connection is needed for them to render correctly. They degrade gracefully without one.
+# Click "Go Live" in the bottom-right status bar
+ 
+# Option 2 — Python
+python3 -m http.server 5500
+# Open http://localhost:5500
+```
+ 
+> Requires an internet connection for Google Fonts (DM Sans + DM Serif Display).
 
 ---
 
